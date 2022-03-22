@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable-v21/app_widget_background.xml" value="0.204" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable-v21/app_widget_inner_view_background.xml" value="0.204" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2035" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable-v24/radio_flat_regular.xml" value="0.141" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable-v24/radio_flat_selected.xml" value="0.141" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable-v24/radio_flat_selector.xml" value="0.141" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable-v24/radio_flat_text_selector.xml" value="0.141" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable/bg_white_round.xml" value="0.2035" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable/bg_white_rounded.xml" value="0.192" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable/button_dismiss_alert.xml" value="0.1575" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable/gradient_card.xml" value="0.1575" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable/gradient_card_alert_item.xml" value="0.141" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable/gradient_home_card.xml" value="0.141" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable/hour_card_shape_bg.xml" value="0.1745" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable/ic_add_.xml" value="0.204" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.204" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.204" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.204" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.204" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2035" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable/ic_map_type.xml" value="0.192" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable/ic_my_location.xml" value="0.192" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.204" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable/ic_rectangle.xml" value="0.1" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable/ic_round_location_on.xml" value="0.2035" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable/shap_alert_dialog.xml" value="0.2035" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable/shaper_alert_dialog.xml" value="0.181" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable/toggle_widget_background.xml" value="0.204" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/drawable/white_circle.xml" value="0.1" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/activity_main.xml" value="0.19635416666666666" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/activity_main2.xml" value="0.12" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/activity_splash.xml" value="0.1611799914493373" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/add_alert_fragment.xml" value="0.33" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/backup_ui.xml" value="0.1611799914493373" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/dialog_alert_overapp.xml" value="0.33" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/fragment_adding_new_alert_dialog.xml" value="0.5" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/fragment_alert.xml" value="0.1611799914493373" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/fragment_dashboard.xml" value="0.19635416666666666" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/fragment_favourite.xml" value="0.22" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/fragment_home_text.xml" value="0.25" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/fragment_map.xml" value="0.33" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/fragment_maps.xml" value="0.1611799914493373" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/fragment_notifications.xml" value="0.19635416666666666" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/fragment_setting.xml" value="0.25" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/fragment_setting_backup.xml" value="0.1611799914493373" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/fragment_settings.xml" value="0.1611799914493373" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/item_alert.xml" value="0.25" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/item_daily.xml" value="0.33" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/item_favourite.xml" value="0.33" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/item_hourly.xml" value="0.67" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/layout.xml" value="0.33" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/loading_dialog.xml" value="0.1611799914493373" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/main_activity2.xml" value="0.1" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/new_app_widget.xml" value="0.5" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/new_app_widget_configure.xml" value="0.1611799914493373" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/notification_alert_item_view.xml" value="0.23228346456692914" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/setting_fragment.xml" value="0.25" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/temperatures_hour_item_view.xml" value="0.1611799914493373" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/test.xml" value="0.1611799914493373" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/layout/week_days_item_view.xml" value="0.1611799914493373" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/menu/bottom_nav_menu.xml" value="0.19635416666666666" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2035" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2035" />
+        <entry key="..\:/Android-Weather/ZeusWeather/app/src/main/res/xml/xml.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
