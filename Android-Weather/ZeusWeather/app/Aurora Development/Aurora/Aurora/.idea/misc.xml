@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/drawable-anydpi/ic_add_fab.xml" value="0.1665" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/drawable/background_layout.xml" value="0.1675" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/drawable/button_add_medication.xml" value="0.151" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/drawable/checkbox_button_shape.xml" value="0.151" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/drawable/checkbox_days_selected.xml" value="0.151" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/drawable/checkbox_days_selector.xml" value="0.151" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/drawable/checkbox_days_unselect.xml" value="0.151" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/drawable/ic_drug.xml" value="0.1835" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/drawable/ic_inhaler.xml" value="0.1835" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/drawable/ic_injection.xml" value="0.1835" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/drawable/ic_med_done.xml" value="0.2005" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/drawable/ic_medicine_pill.xml" value="0.1835" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1665" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/drawable/ic_taken_done.xml" value="0.2005" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/drawable/missed_icon.xml" value="0.2005" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/acitivty_medication_details.xml" value="0.19635416666666666" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/activity_add_medicine.xml" value="0.25" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/activity_edit_meds.xml" value="0.25" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/activity_edit_meds_test.xml" value="0.33" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/activity_intro.xml" value="0.1611799914493373" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/activity_main.xml" value="0.19635416666666666" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/activity_main_home.xml" value="0.19635416666666666" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/activity_medicine_details.xml" value="0.1611799914493373" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/activity_medicine_details_deve.xml" value="0.2" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/activity_verify_phone_number.xml" value="0.19635416666666666" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/custom_toolbar.xml" value="0.10816588285592134" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/dialog_dosage_reminder.xml" value="0.19635416666666666" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/dialog_dose_details.xml" value="0.1611799914493373" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/dialog_refill_medicine.xml" value="0.15433946130825138" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/dialog_refill_reminder.xml" value="0.15433946130825138" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/fragment_log.xml" value="0.22" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/fragment_medication.xml" value="0.19635416666666666" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/fragment_taker.xml" value="0.19635416666666666" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/item_add_medication.xml" value="0.33" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/item_dose_in_main_activity.xml" value="0.25" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/item_dose_in_main_activity_deve.xml" value="0.25" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/item_dose_log_fragment.xml" value="0.5" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/item_medicine_in_main_activity.xml" value="0.5" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/popup_window.xml" value="0.24196597353497165" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/slide1.xml" value="0.25" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/slide2.xml" value="0.1611799914493373" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/slide3.xml" value="0.1611799914493373" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/slide4.xml" value="0.1" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/layout/test.xml" value="0.25" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/menu/bottom_nav_menu.xml" value="0.19635416666666666" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1665" />
+        <entry key="..\:/Android - Aurora/Aurora Development/Aurora/Aurora/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1415" />
+        <entry key="..\:/Android - Aurora/Aurora/Aurora/app/src/main/res/layout/activity_splash.xml" value="0.19635416666666666" />
+        <entry key="..\:/Android/Projects/Aurora/Aurora/app/src/main/res/drawable/background_layout.xml" value="0.1685" />
+        <entry key="..\:/Android/Projects/Aurora/Aurora/app/src/main/res/drawable/button_add_medication.xml" value="0.1685" />
+        <entry key="..\:/Android/Projects/Aurora/Aurora/app/src/main/res/layout/activity_edit_meds.xml" value="0.2" />
+        <entry key="..\:/Android/Projects/Aurora/Aurora/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/Projects/Aurora/Aurora/app/src/main/res/layout/activity_main_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/Projects/Aurora/Aurora/app/src/main/res/layout/activity_medicine_details.xml" value="0.33" />
+        <entry key="..\:/Android/Projects/Aurora/Aurora/app/src/main/res/layout/dialog_dosage_reminder.xml" value="0.16" />
+        <entry key="..\:/Android/Projects/Aurora/Aurora/app/src/main/res/layout/dialog_dose_details.xml" value="0.5" />
+        <entry key="..\:/Android/Projects/Aurora/Aurora/app/src/main/res/layout/fragment_medication.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/Projects/Aurora/Aurora/app/src/main/res/layout/item_add_medication.xml" value="0.2898089171974522" />
+        <entry key="..\:/Android/Projects/Aurora/Aurora/app/src/main/res/layout/item_dose_in_main_activity.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/Projects/Aurora/Aurora/app/src/main/res/layout/item_medicine_in_main_activity.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/Projects/Aurora/Aurora/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/acitivty_medication_details.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_edit_meds.xml" value="0.40850500479931706" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.30945231119791666" />
+        <entry key="app/src/main/res/layout/dialog_dosage_reminder.xml" value="0.11354166666666667" />
+        <entry key="app/src/main/res/layout/item_add_medication.xml" value="0.246875" />
+        <entry key="app/src/main/res/layout/item_med_main.xml" value="0.246875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

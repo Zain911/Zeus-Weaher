@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zeus Weather</string>
+    <string name="title_home">الرئيسية</string>
+    <string name="title_setting">الإعدادات</string>
+    <string name="title_alert">تنبيه</string>
+    <string name="title_favourite">المفضل</string>
+    <string name="_7_days_forecast">"توقعات ل(٧)أيام "</string>
+    <string name="max">العظمي :</string>
+    <string name="min">" الصغري :"</string>
+    <string name="cloud">السحاب</string>
+    <string name="language">اللغة</string>
+    <string name="feel_like">أشعر وكأن الطقس</string>
+    <string name="current">الأن</string>
+    <string name="humidity">الرطوبة</string>
+    <string name="saturday" translatable="false">السبت</string>
+    <string name="sunday" translatable="false">الأحد</string>
+    <string name="monday">الأثنين</string>
+    <string name="tuesday">الثلاثاء</string>
+    <string name="wednesday">الأربعاء</string>
+    <string name="friday">الجمعة</string>
+    <string name="thursday">الخميس</string>
+    <string name="search_here">ابحث</string>
+    <string name="enable">تفعيل</string>
+    <string name="disable">إيقاف</string>
+    <string name="notification">الأشعارات</string>
+    <string name="save">حفظ</string>
+    <string name="from">من</string>
+    <string name="to">إلى</string>
+    <string name="english">الانجليزية</string>
+    <string name="arabic">العربية</string>
+    <string name="temperature">الحرارة</string>
+    <string name="celsius">سيليزي</string>
+    <string name="kelvin">كيلفن</string>
+    <string name="fahrenheit">فهرنهايت</string>
+    <string name="wind_speed">سرعة الرياح</string>
+    <string name="metre_sec">م/ث</string>
+    <string name="mile_hour">ميل/س</string>
+    <string name="favourite_weather_condition">اضافة المفضل من الطقس</string>
+    <string name="weather_condition">حالة الطقس :</string>
+    <string name="close">إغلاق</string>
+    <string name="weather_details">تفاصيل الطقس :</string>
+    <string name="no_alert">لايوجد انذارات الأن</string>
+    <string name="it_seem">"يبدو ان الطقس سيكون "</string>
+    <string name="yes">نعم</string>
+    <string name="EnableNotiDialog">تفعيل إشعارات الإطار</string>
+    <string name="some_details">بعض التفاصيل عن حالة الطقس</string>
+    <string name="add_favourite">إضافة المدن المفضلة</string>
+    <string name="Pressure">الضغط</string>
+    <string name="settings">الإعدادات :</string>
+    <string name="wind_speed_unit">وحدة سرعة الرياح:</string>
+    <string name="temperature_unit">وحده الحرارة</string>
+    <string name="add_alert">إضافة تنبية لتغيرات الطقس</string>
+    <string name="open_internet">شغل النترنت و حاول مجددا</string>
+    <string name="select_location">اختار الموقع</string>
+    <string name="do_you_location">هل تريد فعلا اختيار المكان</string>
+    <string name="no">لأ</string>
+</resources>

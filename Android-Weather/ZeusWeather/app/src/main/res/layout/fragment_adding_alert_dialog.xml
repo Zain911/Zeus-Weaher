@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/main_bg"
+    android:paddingHorizontal="28dp"
+    android:paddingVertical="20dp"
+    tools:context="com.example.zeusweather.ui.alert.AddingAlertDialog">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/from_ConstraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/main_card"
+        android:backgroundTint="@color/dark_grey_weather"
+        android:elevation="12dp"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="4dp"
+        app:layout_constraintEnd_toEndOf="@+id/chooseFrom_ConstraintLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/from"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/to_ConstraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/main_card"
+        android:backgroundTint="@color/dark_grey_weather"
+        android:elevation="12dp"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="4dp"
+        app:layout_constraintEnd_toEndOf="@+id/chooseToConstraintLayout"
+        app:layout_constraintStart_toEndOf="@id/from_ConstraintLayout"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/to"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/chooseFrom_ConstraintLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+
+        android:background="@drawable/shap_alert_dialog"
+        android:elevation="12dp"
+        android:paddingHorizontal="28dp"
+        android:paddingVertical="16dp"
+        app:layout_constraintStart_toStartOf="@id/from_ConstraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/from_ConstraintLayout">
+
+        <TextView
+            android:id="@+id/dateFrom_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="15 Mar" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/chooseToConstraintLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shap_alert_dialog"
+        android:elevation="12dp"
+        android:paddingHorizontal="28dp"
+        android:paddingVertical="16dp"
+        app:layout_constraintStart_toStartOf="@id/to_ConstraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/to_ConstraintLayout"
+        app:layout_constraintTop_toTopOf="@+id/chooseFrom_ConstraintLayout">
+
+        <TextView
+            android:id="@+id/dateToTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="15 Mar" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/chooseTimeConstraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/shap_alert_dialog"
+
+        android:elevation="12dp"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="16dp"
+        app:backgroundTint="@color/primary_text_color"
+        app:layout_constraintEnd_toEndOf="@+id/to_ConstraintLayout"
+        app:layout_constraintStart_toStartOf="@id/from_ConstraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/chooseFrom_ConstraintLayout">
+
+        <TextView
+            android:id="@+id/chosenHourTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="3:00AM" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/shap_alert_dialog"
+        android:clickable="false"
+        android:enabled="false"
+        android:paddingHorizontal="4dp"
+        android:text="@string/save"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:backgroundTint="@color/primary_text_color"
+        app:layout_constraintEnd_toEndOf="@+id/chooseTimeConstraintLayout"
+        app:layout_constraintStart_toStartOf="@+id/chooseTimeConstraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/chooseTimeConstraintLayout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

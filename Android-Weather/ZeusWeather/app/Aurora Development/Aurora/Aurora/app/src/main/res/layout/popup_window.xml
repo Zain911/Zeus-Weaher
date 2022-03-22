@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:paddingBottom="12dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout_addMedication"
+            style="@style/inputEditText"
+            app:errorEnabled="false"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/nameAddMedication_inputEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:ems="1"
+                android:hint="@string/enter_name_medication"
+                android:inputType="text"
+                android:maxLines="1"
+                android:nextFocusDown="@+id/formAddMedication_spinner" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/formAddMedication_CardView"
+            style="@style/inputEditText"
+            app:layout_constraintEnd_toEndOf="@+id/textInputLayout_addMedication"
+            app:layout_constraintStart_toStartOf="@+id/textInputLayout_addMedication"
+            app:layout_constraintTop_toBottomOf="@id/textInputLayout_addMedication">
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/formAddMedication_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/app_name" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout"
+            style="@style/inputEditText"
+            android:layout_marginTop="8dp"
+
+            app:layout_constraintEnd_toEndOf="@+id/formAddMedication_CardView"
+            app:layout_constraintStart_toStartOf="@+id/formAddMedication_CardView"
+            app:layout_constraintTop_toBottomOf="@id/formAddMedication_CardView">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/strengthMedication_TextInputEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/guideline"
+
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/strengthAddMedication_inputEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:hint="@string/enter_strength"
+
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:nextFocusDown="@+id/recurrencyAddMedication_spinner" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.5" />
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/strenghtAddMedication_spinner"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:spinnerMode="dropdown"
+                app:layout_constraintBottom_toBottomOf="@+id/strengthMedication_TextInputEditText"
+                app:layout_constraintLeft_toRightOf="@+id/guideline"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/strengthMedication_TextInputEditText" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/recurrencyAddMedication_cardview"
+            style="@style/inputEditText"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout">
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/recurrencyAddMedication_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:spinnerMode="dropdown" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            style="@style/inputEditText"
+            app:layout_constraintEnd_toEndOf="@+id/recurrencyAddMedication_cardview"
+            app:layout_constraintStart_toStartOf="@+id/recurrencyAddMedication_cardview"
+            app:layout_constraintTop_toBottomOf="@+id/recurrencyAddMedication_cardview">
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/instructionsAddMedication_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:spinnerMode="dropdown" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/startDate_textView"
+            style="@style/timeTextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:paddingStart="0dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="8dp"
+            android:text="@string/start_date"
+            app:layout_constraintEnd_toEndOf="@+id/recurrencyAddMedication_cardview"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/cardView"
+            app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+        <TextView
+            android:id="@+id/startDatepickerAddmedication_Textview"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/button_add_medication"
+            android:gravity="center"
+            android:hint="@string/select_start_day_hint"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/startDate_textView"
+            app:layout_constraintEnd_toEndOf="@+id/cardView"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/startDate_textView"
+            app:layout_constraintTop_toTopOf="@+id/startDate_textView"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/endDate_textView"
+            style="@style/timeTextview"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:text="@string/end_date"
+            app:layout_constraintEnd_toEndOf="@+id/startDate_textView"
+            app:layout_constraintStart_toStartOf="@+id/startDate_textView"
+            app:layout_constraintTop_toBottomOf="@+id/startDate_textView" />
+
+        <TextView
+            android:id="@+id/endDatePicker_textview"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/button_add_medication"
+            android:gravity="center"
+            android:hint="@string/selcet_end_day_hint"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/endDate_textView"
+            app:layout_constraintEnd_toEndOf="@+id/startDatepickerAddmedication_Textview"
+            app:layout_constraintStart_toStartOf="@+id/startDatepickerAddmedication_Textview"
+            app:layout_constraintTop_toBottomOf="@+id/startDate_textView" />
+
+        <TextView
+            android:id="@+id/selectTime_textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:paddingTop="4dp"
+
+            android:paddingBottom="4dp"
+            android:text="@string/select_time"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/endDate_textView"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/endDate_textView"
+            app:layout_constraintTop_toBottomOf="@+id/endDate_textView" />
+
+        <TextView
+            android:id="@+id/timePicker_textview"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_add_medication"
+            android:gravity="center"
+            android:hint="@string/select_time_hint"
+
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/endDatePicker_textview"
+            app:layout_constraintStart_toStartOf="@+id/endDatePicker_textview"
+            app:layout_constraintTop_toTopOf="@+id/selectTime_textView3" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/checkbox_days_selector"
+           android:paddingEnd="12dp"
+            android:text="Remimber fill"
+            app:layout_constraintStart_toStartOf="@+id/selectTime_textView3"
+            app:layout_constraintTop_toBottomOf="@+id/timePicker_textview" />
+        <!-- <com.google.android.material.textfield.TextInputLayout
+             android:id="@+id/reasonOfTakingTextView"
+             style="@style/inputEditText"
+             android:layout_marginTop="12dp"
+             app:layout_constraintEnd_toEndOf="@+id/cardView"
+             app:layout_constraintStart_toStartOf="@+id/cardView"
+             app:layout_constraintTop_toBottomOf="@+id/selectTime_textView3">
+
+             <com.google.android.material.textfield.TextInputEditText
+                 android:id="@+id/reason_inputEditText"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:backgroundTint="@color/white"
+                 android:hint="@string/the_reason_of_taking_this_drug"
+                 android:inputType="text" />
+         </com.google.android.material.textfield.TextInputLayout>
+
+         <androidx.cardview.widget.CardView
+             android:id="@+id/datesAddMedication_cardview"
+             style="@style/daysWeekCardview"
+             android:visibility="gone"
+             app:layout_constraintEnd_toEndOf="@+id/recurrencyAddMedication_cardview"
+             app:layout_constraintStart_toStartOf="@+id/recurrencyAddMedication_cardview"
+             app:layout_constraintTop_toBottomOf="@id/reasonOfTakingTextView">
+
+             <androidx.constraintlayout.widget.ConstraintLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+                 <TextView
+                     android:id="@+id/dayTextView"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:hint="@string/medication_days"
+                     android:padding="20dp"
+                     android:textColor="@color/primary_color"
+                     app:layout_constraintStart_toStartOf="parent"
+                     app:layout_constraintTop_toTopOf="parent" />
+
+             </androidx.constraintlayout.widget.ConstraintLayout>
+
+         </androidx.cardview.widget.CardView>
+
+         <Button
+             android:id="@+id/addMedication_button"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="60dp"
+             android:layout_marginTop="12dp"
+             android:layout_marginEnd="60dp"
+             android:background="@drawable/button_add_medication"
+             android:text="@string/add_medication"
+             android:textAllCaps="false"
+             android:textSize="16sp"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintHorizontal_bias="0.0"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toBottomOf="@+id/datesAddMedication_cardview" />
+ -->
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

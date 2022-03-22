@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_medication"
+        android:icon="@drawable/ic_medicine_pill"
+        android:title="@string/title_medication" />
+
+    <item
+        android:id="@+id/navigation_taker"
+        android:icon="@drawable/taker"
+        android:title="@string/title_taker" />
+    <item
+        android:id="@+id/navigation_logFragment"
+        android:icon="@drawable/log"
+        android:title="@string/title_history" />
+
+</menu>

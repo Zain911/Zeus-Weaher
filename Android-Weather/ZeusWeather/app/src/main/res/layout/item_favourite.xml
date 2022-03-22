@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="25dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/item_favourite_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="16dp"
+        android:background="@drawable/card_favourite"
+        >
+
+        <ImageView
+            android:id="@+id/fav_location_imageView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_round_location_on"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/fav_city_textivew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textColor="@color/primary_text_color"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/fav_location_imageView"
+            app:layout_constraintTop_toTopOf="@+id/fav_location_imageView"
+            tools:text="Cairo" />
+
+
+        <TextView
+            android:id="@+id/fav_country_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:textColor="@color/secondary_text_color"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/fav_location_imageView"
+            app:layout_constraintTop_toBottomOf="@id/fav_city_textivew"
+            tools:text="Cairo africa" />
+
+        <ImageView
+            android:id="@+id/fav_weather_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/testimgae" />
+
+        <TextView
+
+            android:id="@+id/fav_temp_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/fav_description_textView"
+            app:layout_constraintStart_toStartOf="@+id/fav_weather_imageView"
+            app:layout_constraintTop_toBottomOf="@+id/fav_weather_imageView"
+            tools:text="299.03K" />
+
+        <TextView
+            android:id="@+id/fav_description_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            app:layout_constraintBottom_toBottomOf="@+id/fav_weather_imageView"
+            app:layout_constraintEnd_toStartOf="@+id/fav_weather_imageView"
+            app:layout_constraintTop_toTopOf="@+id/fav_weather_imageView"
+            tools:text="description" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
